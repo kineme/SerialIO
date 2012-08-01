@@ -1,0 +1,8 @@
+//
+// Prefix header for all source files of the 'SerialIOPatch' target in the 'SerialIOPatch' project.
+//
+
+#ifdef __OBJC__
+    #import <Cocoa/Cocoa.h>
+	#import <QuartzComposer.h>
+#endif

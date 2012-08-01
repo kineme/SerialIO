@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>nodeAttributes</key>
+	<dict>
+		<key>category</key>
+		<string>Kineme Serial</string>
+		<key>categories</key>
+		<array>
+			<string>Kineme Serial</string>
+		</array>
+		<key>copyright</key>
+		<string>Copyright 2007 Kosada Incorporated. All rights reserved.</string>
+		<key>description</key>
+		<string>This patch provides you with data from a specified serial port.
+
+http://kineme.net/</string>
+		<key>name</key>
+		<string>Serial Input</string>
+	</dict>
+	<key>inputAttributes</key>
+	<dict>
+				<key>inputDevice</key>
+		<dict>
+			<key>description</key>
+			<string>Serial Device to send data to</string>
+			<key>name</key>
+			<string>Device</string>
+		</dict>
+		<key>inputBaudRate</key>
+		<dict>
+			<key>description</key>
+			<string>Baud Rate to use when sending</string>
+			<key>name</key>
+			<string>Baud rate</string>
+		</dict>
+		<key>inputParity</key>
+		<dict>
+			<key>description</key>
+			<string>Parity to use when sending</string>
+			<key>name</key>
+			<string>Parity</string>
+			<key>menu</key>
+			<array>
+				<string>Even</string>
+				<string>Odd</string>
+				<string>None</string>
+			</array>
+		</dict>
+		<key>inputDataBits</key>
+		<dict>
+			<key>description</key>
+			<string>Number of Data Bits per byte</string>
+			<key>name</key>
+			<string>Data Bits</string>
+			<key>menu</key>
+			<array>
+				<string>5</string>
+				<string>6</string>
+				<string>7</string>
+				<string>8</string>
+			</array>
+		</dict>
+		<key>inputStopBits</key>
+		<dict>
+			<key>description</key>
+			<string>Number of Stop Bits per byte</string>
+			<key>name</key>
+			<string>Stop Bits</string>
+			<key>menu</key>
+			<array>
+				<string>1</string>
+				<string>2</string>
+			</array>
+		</dict>
+		<key>inputData</key>
+		<dict>
+			<key>description</key>
+			<string>The data to send</string>
+			<key>name</key>
+			<string>Data</string>
+		</dict>
+		<key>inputTrigger</key>
+		<dict>
+			<key>description</key>
+			<string>Signals when to send data</string>
+			<key>name</key>
+			<string>Send Signal</string>
+		</dict>
+		<key>inputBreakString</key>
+		<dict>
+			<key>description</key>
+			<string>String to break data on; a Separator.  Use \n for newlines, \t for tabs.</string>
+			<key>name</key>
+			<string>Break String</string>
+		</dict>
+		<key>inputClearBuffer</key>
+		<dict>
+			<key>description</key>
+			<string>Clears the receive buffer</string>
+			<key>name</key>
+			<string>Clear Buffer</string>
+		</dict>
+	</dict>
+	<key>outputAttributes</key>
+	<dict>
+		<key>outputData</key>
+		<dict>
+			<key>description</key>
+			<string>The last string, separated by Break String, if specified</string>
+			<key>name</key>
+			<string>Data</string>
+		</dict>
+	</dict>
+</dict>
+</plist>

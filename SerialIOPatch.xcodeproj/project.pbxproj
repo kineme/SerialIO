@@ -1,0 +1,468 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 42;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		2BFC9FEA10C8C0C6004BEDFA /* Install */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 2BFC9FF710C8C0EB004BEDFA /* Build configuration list for PBXAggregateTarget "Install" */;
+			buildPhases = (
+				2BFC9FF110C8C0D0004BEDFA /* Install */,
+			);
+			dependencies = (
+				2BFC9FEF10C8C0CB004BEDFA /* PBXTargetDependency */,
+			);
+			name = Install;
+			productName = Install;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		2AEC87710D180A7F00A3F2D2 /* KinemeSerialInput.m in Sources */ = {isa = PBXBuildFile; fileRef = 2AEC87700D180A7F00A3F2D2 /* KinemeSerialInput.m */; };
+		2AEC87740D180A8E00A3F2D2 /* KinemeSerialOutput.m in Sources */ = {isa = PBXBuildFile; fileRef = 2AEC87730D180A8E00A3F2D2 /* KinemeSerialOutput.m */; };
+		2AEC877C0D180B9400A3F2D2 /* KinemeSerialOutput.xml in Resources */ = {isa = PBXBuildFile; fileRef = 2AEC877A0D180B9400A3F2D2 /* KinemeSerialOutput.xml */; };
+		2AEC87A70D18153C00A3F2D2 /* IOKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2AEC87A60D18153C00A3F2D2 /* IOKit.framework */; };
+		8D5B49B4048680CD000E48DA /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1058C7ADFEA557BF11CA2CBB /* Cocoa.framework */; };
+		F1111F7D089D19DD00C2708E /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F1111F7C089D19DD00C2708E /* OpenGL.framework */; };
+		F1111F81089D19ED00C2708E /* Quartz.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F1111F80089D19ED00C2708E /* Quartz.framework */; };
+		F1111F8B089D1A4100C2708E /* KinemeSerialInput.xml in Resources */ = {isa = PBXBuildFile; fileRef = F1111F89089D1A4100C2708E /* KinemeSerialInput.xml */; };
+		F1481793089E5FE3006FD276 /* KinemeSerialIOPatchPrincipal.m in Sources */ = {isa = PBXBuildFile; fileRef = F1481792089E5FE3006FD276 /* KinemeSerialIOPatchPrincipal.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2BFC9FEE10C8C0CB004BEDFA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 089C1669FE841209C02AAC07 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8D5B49AC048680CD000E48DA;
+			remoteInfo = SerialIOPatch;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		089C1672FE841209C02AAC07 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = /System/Library/Frameworks/Foundation.framework; sourceTree = "<absolute>"; };
+		089C167FFE841241C02AAC07 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = /System/Library/Frameworks/AppKit.framework; sourceTree = "<absolute>"; };
+		1058C7ADFEA557BF11CA2CBB /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = /System/Library/Frameworks/Cocoa.framework; sourceTree = "<absolute>"; };
+		2AEC876F0D180A7F00A3F2D2 /* KinemeSerialInput.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KinemeSerialInput.h; sourceTree = "<group>"; };
+		2AEC87700D180A7F00A3F2D2 /* KinemeSerialInput.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KinemeSerialInput.m; sourceTree = "<group>"; };
+		2AEC87720D180A8E00A3F2D2 /* KinemeSerialOutput.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KinemeSerialOutput.h; sourceTree = "<group>"; };
+		2AEC87730D180A8E00A3F2D2 /* KinemeSerialOutput.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KinemeSerialOutput.m; sourceTree = "<group>"; };
+		2AEC877B0D180B9400A3F2D2 /* English */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = English; path = English.lproj/KinemeSerialOutput.xml; sourceTree = "<group>"; };
+		2AEC87A60D18153C00A3F2D2 /* IOKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = IOKit.framework; path = /System/Library/Frameworks/IOKit.framework; sourceTree = "<absolute>"; };
+		32DBCF630370AF2F00C91783 /* SerialIOPatch_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SerialIOPatch_Prefix.pch; sourceTree = "<group>"; };
+		8D5B49B6048680CD000E48DA /* SerialIOPatch.plugin */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SerialIOPatch.plugin; sourceTree = BUILT_PRODUCTS_DIR; };
+		8D5B49B7048680CD000E48DA /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D2F7E65807B2D6F200F64583 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = /System/Library/Frameworks/CoreData.framework; sourceTree = "<absolute>"; };
+		F1111F7C089D19DD00C2708E /* OpenGL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGL.framework; path = /System/Library/Frameworks/OpenGL.framework; sourceTree = "<absolute>"; };
+		F1111F80089D19ED00C2708E /* Quartz.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Quartz.framework; path = /System/Library/Frameworks/Quartz.framework; sourceTree = "<absolute>"; };
+		F1111F8A089D1A4100C2708E /* English */ = {isa = PBXFileReference; fileEncoding = 0; lastKnownFileType = text.xml; name = English; path = English.lproj/KinemeSerialInput.xml; sourceTree = "<group>"; };
+		F1481791089E5FE3006FD276 /* KinemeSerialIOPatchPrincipal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KinemeSerialIOPatchPrincipal.h; sourceTree = "<group>"; };
+		F1481792089E5FE3006FD276 /* KinemeSerialIOPatchPrincipal.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KinemeSerialIOPatchPrincipal.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8D5B49B3048680CD000E48DA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D5B49B4048680CD000E48DA /* Cocoa.framework in Frameworks */,
+				F1111F7D089D19DD00C2708E /* OpenGL.framework in Frameworks */,
+				F1111F81089D19ED00C2708E /* Quartz.framework in Frameworks */,
+				2AEC87A70D18153C00A3F2D2 /* IOKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		089C166AFE841209C02AAC07 /* SerialIOPatch */ = {
+			isa = PBXGroup;
+			children = (
+				2AB830650CDDF334005AB050 /* Patches */,
+				F1481791089E5FE3006FD276 /* KinemeSerialIOPatchPrincipal.h */,
+				F1481792089E5FE3006FD276 /* KinemeSerialIOPatchPrincipal.m */,
+				32DBCF630370AF2F00C91783 /* SerialIOPatch_Prefix.pch */,
+				089C167CFE841241C02AAC07 /* Resources */,
+				089C1671FE841209C02AAC07 /* Frameworks and Libraries */,
+				19C28FB8FE9D52D311CA2CBB /* Products */,
+			);
+			name = SerialIOPatch;
+			sourceTree = "<group>";
+		};
+		089C1671FE841209C02AAC07 /* Frameworks and Libraries */ = {
+			isa = PBXGroup;
+			children = (
+				2AEC87A60D18153C00A3F2D2 /* IOKit.framework */,
+				1058C7ACFEA557BF11CA2CBB /* Linked Frameworks */,
+				1058C7AEFEA557BF11CA2CBB /* Other Frameworks */,
+			);
+			name = "Frameworks and Libraries";
+			sourceTree = "<group>";
+		};
+		089C167CFE841241C02AAC07 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				2AEC877A0D180B9400A3F2D2 /* KinemeSerialOutput.xml */,
+				F1111F89089D1A4100C2708E /* KinemeSerialInput.xml */,
+				8D5B49B7048680CD000E48DA /* Info.plist */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		1058C7ACFEA557BF11CA2CBB /* Linked Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F1111F80089D19ED00C2708E /* Quartz.framework */,
+				F1111F7C089D19DD00C2708E /* OpenGL.framework */,
+				1058C7ADFEA557BF11CA2CBB /* Cocoa.framework */,
+			);
+			name = "Linked Frameworks";
+			sourceTree = "<group>";
+		};
+		1058C7AEFEA557BF11CA2CBB /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				089C167FFE841241C02AAC07 /* AppKit.framework */,
+				D2F7E65807B2D6F200F64583 /* CoreData.framework */,
+				089C1672FE841209C02AAC07 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		19C28FB8FE9D52D311CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8D5B49B6048680CD000E48DA /* SerialIOPatch.plugin */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2AB830650CDDF334005AB050 /* Patches */ = {
+			isa = PBXGroup;
+			children = (
+				2AEC876F0D180A7F00A3F2D2 /* KinemeSerialInput.h */,
+				2AEC87700D180A7F00A3F2D2 /* KinemeSerialInput.m */,
+				2AEC87720D180A8E00A3F2D2 /* KinemeSerialOutput.h */,
+				2AEC87730D180A8E00A3F2D2 /* KinemeSerialOutput.m */,
+			);
+			name = Patches;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8D5B49AC048680CD000E48DA /* SerialIOPatch */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2BF69CC809F19DD300CAA391 /* Build configuration list for PBXNativeTarget "SerialIOPatch" */;
+			buildPhases = (
+				8D5B49B1048680CD000E48DA /* Sources */,
+				8D5B49B3048680CD000E48DA /* Frameworks */,
+				8D5B49AF048680CD000E48DA /* Resources */,
+				2BA4226B0BFBAF8300DE1E36 /* Strip and Brand */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SerialIOPatch;
+			productInstallPath = "$(HOME)/Library/Bundles";
+			productName = SerialIOPatch;
+			productReference = 8D5B49B6048680CD000E48DA /* SerialIOPatch.plugin */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		089C1669FE841209C02AAC07 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 2BF69CCC09F19DD300CAA391 /* Build configuration list for PBXProject "SerialIOPatch" */;
+			compatibilityVersion = "Xcode 2.4";
+			hasScannedForEncodings = 1;
+			mainGroup = 089C166AFE841209C02AAC07 /* SerialIOPatch */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8D5B49AC048680CD000E48DA /* SerialIOPatch */,
+				2BFC9FEA10C8C0C6004BEDFA /* Install */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8D5B49AF048680CD000E48DA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F1111F8B089D1A4100C2708E /* KinemeSerialInput.xml in Resources */,
+				2AEC877C0D180B9400A3F2D2 /* KinemeSerialOutput.xml in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2BA4226B0BFBAF8300DE1E36 /* Strip and Brand */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Strip and Brand";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# set plugin icon\nRez KinemeOrange.icon -o \"$TARGET_BUILD_DIR/$FULL_PRODUCT_NAME/Icon`echo -e '\\\\r'`\"\nSetFile -a C \"$TARGET_BUILD_DIR/$FULL_PRODUCT_NAME\"\nSetFile -a V \"$TARGET_BUILD_DIR/$FULL_PRODUCT_NAME\"/Icon*\n\n# strip symbols\nstrip -u -r \"$TARGET_BUILD_DIR/$FULL_PRODUCT_NAME/Contents/MacOS/\"*\n\n#set CFBundleVersion to current date\ndefaults write \"$TARGET_BUILD_DIR/$FULL_PRODUCT_NAME/Contents/Info\" CFBundleVersion `date +%Y%m%d.%H`";
+		};
+		2BFC9FF110C8C0D0004BEDFA /* Install */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = Install;
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "#install\nmkdir -p ~/Library/Graphics/Quartz\\ Composer\\ Patches\nrm -Rf \"~/Library/Graphics/Quartz\\ Composer\\ Patches/$FULL_PRODUCT_NAME\"\ncp -R \"$TARGET_BUILD_DIR/$FULL_PRODUCT_NAME\" ~/Library/Graphics/Quartz\\ Composer\\ Patches/";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8D5B49B1048680CD000E48DA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F1481793089E5FE3006FD276 /* KinemeSerialIOPatchPrincipal.m in Sources */,
+				2AEC87710D180A7F00A3F2D2 /* KinemeSerialInput.m in Sources */,
+				2AEC87740D180A8E00A3F2D2 /* KinemeSerialOutput.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2BFC9FEF10C8C0CB004BEDFA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8D5B49AC048680CD000E48DA /* SerialIOPatch */;
+			targetProxy = 2BFC9FEE10C8C0CB004BEDFA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		2AEC877A0D180B9400A3F2D2 /* KinemeSerialOutput.xml */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2AEC877B0D180B9400A3F2D2 /* English */,
+			);
+			name = KinemeSerialOutput.xml;
+			sourceTree = "<group>";
+		};
+		F1111F89089D1A4100C2708E /* KinemeSerialInput.xml */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F1111F8A089D1A4100C2708E /* English */,
+			);
+			name = KinemeSerialInput.xml;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2BF69CC909F19DD300CAA391 /* Development */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT_PRE_XCODE_3_1)";
+				ARCHS_STANDARD_32_64_BIT_PRE_XCODE_3_1 = "x86_64 i386 ppc";
+				GCC_AUTO_VECTORIZATION = YES;
+				GCC_ENABLE_OBJC_GC = YES;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = SerialIOPatch_Prefix.pch;
+				GCC_STRICT_ALIASING = YES;
+				GCC_SYMBOLS_PRIVATE_EXTERN = YES;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = ../../../QCHeaders;
+				INFOPLIST_FILE = Info.plist;
+				INSTALL_PATH = "$(HOME)/Library/Bundles";
+				MACOSX_DEPLOYMENT_TARGET = 10.5;
+				PREBINDING = NO;
+				PRODUCT_NAME = SerialIOPatch;
+				RUN_CLANG_STATIC_ANALYZER = YES;
+				SDKROOT = /Developer/SDKs/MacOSX10.5.sdk;
+				WRAPPER_EXTENSION = plugin;
+			};
+			name = Development;
+		};
+		2BF69CCA09F19DD300CAA391 /* Deployment */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT_PRE_XCODE_3_1)";
+				ARCHS_STANDARD_32_64_BIT_PRE_XCODE_3_1 = "x86_64 i386 ppc";
+				GCC_AUTO_VECTORIZATION = YES;
+				GCC_ENABLE_OBJC_GC = YES;
+				GCC_MODEL_TUNING = G5;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = SerialIOPatch_Prefix.pch;
+				GCC_STRICT_ALIASING = YES;
+				GCC_SYMBOLS_PRIVATE_EXTERN = YES;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = ../../../QCHeaders;
+				INFOPLIST_FILE = Info.plist;
+				INSTALL_PATH = "$(HOME)/Library/Bundles";
+				MACOSX_DEPLOYMENT_TARGET = 10.5;
+				PREBINDING = NO;
+				PRODUCT_NAME = SerialIOPatch;
+				RUN_CLANG_STATIC_ANALYZER = YES;
+				SDKROOT = /Developer/SDKs/MacOSX10.5.sdk;
+				WRAPPER_EXTENSION = plugin;
+			};
+			name = Deployment;
+		};
+		2BF69CCB09F19DD300CAA391 /* Default */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT_PRE_XCODE_3_1)";
+				ARCHS_STANDARD_32_64_BIT_PRE_XCODE_3_1 = "x86_64 i386 ppc";
+				GCC_AUTO_VECTORIZATION = YES;
+				GCC_ENABLE_OBJC_GC = YES;
+				GCC_MODEL_TUNING = G5;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = SerialIOPatch_Prefix.pch;
+				GCC_STRICT_ALIASING = YES;
+				GCC_SYMBOLS_PRIVATE_EXTERN = YES;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = ../../../QCHeaders;
+				INFOPLIST_FILE = Info.plist;
+				INSTALL_PATH = "$(HOME)/Library/Bundles";
+				MACOSX_DEPLOYMENT_TARGET = 10.5;
+				PREBINDING = NO;
+				PRODUCT_NAME = SerialIOPatch;
+				RUN_CLANG_STATIC_ANALYZER = YES;
+				SDKROOT = /Developer/SDKs/MacOSX10.5.sdk;
+				WRAPPER_EXTENSION = plugin;
+			};
+			name = Default;
+		};
+		2BF69CCD09F19DD300CAA391 /* Development */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = (
+					ppc,
+					i386,
+					ppc64,
+					x86_64,
+				);
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				SDKROOT = /Developer/SDKs/MacOSX10.4u.sdk;
+			};
+			name = Development;
+		};
+		2BF69CCE09F19DD300CAA391 /* Deployment */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = (
+					ppc,
+					i386,
+					ppc64,
+					x86_64,
+				);
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				SDKROOT = /Developer/SDKs/MacOSX10.4u.sdk;
+				SYMROOT = $TMPDIR/$FULL_PRODUCT_NAME/build;
+			};
+			name = Deployment;
+		};
+		2BF69CCF09F19DD300CAA391 /* Default */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = (
+					ppc,
+					i386,
+					ppc64,
+					x86_64,
+				);
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				SDKROOT = /Developer/SDKs/MacOSX10.4u.sdk;
+			};
+			name = Default;
+		};
+		2BFC9FEB10C8C0C6004BEDFA /* Development */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				PRODUCT_NAME = Install;
+			};
+			name = Development;
+		};
+		2BFC9FEC10C8C0C6004BEDFA /* Deployment */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_ENABLE_FIX_AND_CONTINUE = NO;
+				PRODUCT_NAME = Install;
+				ZERO_LINK = NO;
+			};
+			name = Deployment;
+		};
+		2BFC9FED10C8C0C6004BEDFA /* Default */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = Install;
+			};
+			name = Default;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2BF69CC809F19DD300CAA391 /* Build configuration list for PBXNativeTarget "SerialIOPatch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2BF69CC909F19DD300CAA391 /* Development */,
+				2BF69CCA09F19DD300CAA391 /* Deployment */,
+				2BF69CCB09F19DD300CAA391 /* Default */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Default;
+		};
+		2BF69CCC09F19DD300CAA391 /* Build configuration list for PBXProject "SerialIOPatch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2BF69CCD09F19DD300CAA391 /* Development */,
+				2BF69CCE09F19DD300CAA391 /* Deployment */,
+				2BF69CCF09F19DD300CAA391 /* Default */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Default;
+		};
+		2BFC9FF710C8C0EB004BEDFA /* Build configuration list for PBXAggregateTarget "Install" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2BFC9FEB10C8C0C6004BEDFA /* Development */,
+				2BFC9FEC10C8C0C6004BEDFA /* Deployment */,
+				2BFC9FED10C8C0C6004BEDFA /* Default */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Default;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 089C1669FE841209C02AAC07 /* Project object */;
+}
