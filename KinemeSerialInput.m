@@ -88,7 +88,7 @@
 	if(	deviceName != [inputDevice stringValue])
 	{
 		deviceName = [inputDevice stringValue];
-		NSLog(@"KinemeSerialInput: Opening %@",[inputDevice stringValue]);
+		NSLog(NSLocalizedString(@"KinemeSerialInput: Opening %@", @""), [inputDevice stringValue]);
 		baudRate = [inputBaudRate indexValue];
 		parity = [inputParity indexValue];
 		dataBits = [inputDataBits indexValue];
@@ -106,7 +106,7 @@
 		serialDevice > -1)
 	{
 		// set options here to prevent failures from retrying endlessly
-		NSLog(@"KinemeSerialInput: Reconfiguring...");
+		NSLog(NSLocalizedString(@"KinemeSerialInput: Reconfiguring...", @""));
 		baudRate = [inputBaudRate indexValue];
 		parity = [inputParity indexValue];
 		dataBits = [inputDataBits indexValue];
@@ -114,7 +114,7 @@
 		
 		if(configDevice(serialDevice,baudRate, parity, dataBits, stopBits))
 		{
-			NSLog(@"KinemeSerialInput: Error reconfiguring device");
+			NSLog(NSLocalizedString(@"KinemeSerialInput: Error reconfiguring device", @""));
 		}
 	}
 	
@@ -148,7 +148,7 @@
 			}
 			else
 			{
-				NSLog(@"KinemeSerialInput: recvBuffer grew to 1MB... not growing anymore, but dropping characters");
+				NSLog(NSLocalizedString(@"KinemeSerialInput: recvBuffer grew to 1MB... not growing anymore, but dropping characters", @""));
 				recvIndex = 0;	// start over... 
 			}
 		}

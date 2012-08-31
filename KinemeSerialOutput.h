@@ -1,10 +1,3 @@
-#import "QCPatch.h"
-#import "QCOpenGLContext.h"
-
-#import "QCBooleanPort.h"
-#import "QCStringPort.h"
-#import "QCIndexPort.h"
-
 @interface KinemeSerialOutput : QCPatch
 {
 	QCStringPort	*inputDevice;

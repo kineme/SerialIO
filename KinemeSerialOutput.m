@@ -96,7 +96,7 @@ static unsigned char unhex(unsigned char t, unsigned char b)
 		
 		if(configDevice(serialDevice,baudRate, parity, dataBits, stopBits))
 		{
-			NSLog(@"KinemeSerialOutput: Error reconfiguring %@",[inputDevice stringValue]);
+			NSLog(NSLocalizedString(@"KinemeSerialOutput: Error reconfiguring %@", @""), [inputDevice stringValue]);
 		}
 	}
 	if(serialDevice > -1)
@@ -115,7 +115,7 @@ static unsigned char unhex(unsigned char t, unsigned char b)
 			if(data)
 				size = write(serialDevice, data, strlen(data));
 			else
-				NSLog(@"KinemeSerialOutput: NSString conversion failed; not sending data.");
+				NSLog(NSLocalizedString(@"KinemeSerialOutput: NSString conversion failed; not sending data.", @""));
 			//NSLog(@"KinemeSerialOutput: Sent %i bytes (of %i)",size, strlen(data));
 		}
 		if([inputBinaryTrigger booleanValue] && ! oldBinaryTrigger)
